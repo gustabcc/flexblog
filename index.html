@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Flexblog</title>
+</head>
+<body>
+
+    <div class="superinfo-bg">
+        <div class="superinfo">
+            <p>Seg / Sex 08:00 - às 18:00</p>
+            <a href="tel:5599999999999">+55 (99) 999999999</a>
+            <p>Av. Bernardo Sayão, 166, Nova Imperatriz - MA</p>
+        </div>
+    </div>
+
+    <header class="menu-bg">
+        <div class="menu">
+            <div class="menu-logo"><a href="">FlexBlog</a></div>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Produtos">Produtos</a></li>
+                    <li><a href="#Preços">Preços</a></li>
+                    <li><a href="#Qualidade">Qualidade</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1 class="introducao">Novos valores e <br>propriedades do CSS</h1>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h1>Sobre</h1>
+            <p>
+                O que temos que ter sempre em mente é que a daterminação clara do objetivo afeta positivamente
+                a correta previsão das condições ingavelmente apropriadas a objetivos.
+            </p>
+            <p>
+                O que temos que ter sempre em mente é que a daterminação clara do objetivo afeta positivamente
+                a correta previsão das condições ingavelmente apropriadas a objetivos.
+            </p>
+        </div>
+        <div class="sobre-img">
+            <img src="/img/sobre1.jpg" alt="sobre 1">
+        </div>
+        <div class="sobre-img">
+            <img src="/img/sobre2.jpg" alt="sobre 2">
+        </div>
+    </section>
+
+    <section class="produtos" id="produtos">
+        <h1>Produtos</h1>
+        <div class="produtos-container">
+            <div class="produtos-item purple">
+                <h2>Purple</h2>
+                <img src="/img/produtos1.jpg" alt="Produto 1">
+            </div>
+
+            <div class="produtos-item pink">
+                <h2>Pink</h2>
+                <img src="/img/produtos2.jpg" alt="Produto 2">
+            </div>
+
+            <div class="produtos-item blue">
+                <h2>Blue</h2>
+                <img src="/img/produtos3.jpg" alt="Produto 3">
+            </div>
+        </div>
+    </section>
+
+    <section class="preco" id="preco">
+        <div class="preco-item">
+            <h2>Cobre</h2>
+            <span><sup>R$</sup>19</span>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Restrito</li>
+                <li>Suporte 24h</li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+
+        <div class="preco-item">
+            <h2>Prata</h2>
+            <span><sup>R$</sup>59</span>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Restrito</li>
+                <li>Suporte 24h</li>
+                <li>Compra Exclusiva</li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+
+        <div class="preco-item">
+            <h2>Ouro</h2>
+            <span><sup>R$</sup>79</span>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Restrito</li>
+                <li>Suporte 24h</li>
+                <li>Maiores descontos</li>
+                <li>Compra Exclusiva</li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+    </section>
+
+    <section class="qualidade" id="qualidade">
+        <div class="qualidade-item">
+            <h2>Inteligente</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quas voluptatibus! Animi fugiat vitae ullam?</p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Compacto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi asperiores nam beatae laudantium deserunt! Necessitatibus autem voluptatum odit!</p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Econômico</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quas voluptatibus! Animi fugiat vitae ullam?</p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Transparente</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quas voluptatibus! Animi fugiat vitae ullam?</p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Opaco</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aut tempora doloribus! Nostrum minus laboriosam animi maxime sed.</p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Sustentável</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quas voluptatibus! Animi fugiat vitae ullam?</p>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-info">
+            <h1>Newsletter</h1>
+            <p>Assine e fique por dentro das novidades</p>
+        </div>
+        <form class="newsletter-form">
+            <input type="text" placeholder="Seu email">
+            <button type="submit">Assinar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>FlexBlog &copy; todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
